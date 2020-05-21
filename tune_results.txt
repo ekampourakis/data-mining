@@ -1,0 +1,12 @@
+After quite a lot of GridSearch iterations we fine tuned the SVM parameters
+
+Fitting 5 folds for each of 1600 candidates, totalling 8000 fits
+
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done 8000 out of 8000 | elapsed:  4.9min finished
+
+Finished tuning
+
+Best params: {'C': 0.655, 'coef0': 1.794999999999999, 'degree': 4, 'gamma': 'scale', 'kernel': 'poly'}
+
+Precision: 0.61         Recall: 0.62            F1: 0.61
